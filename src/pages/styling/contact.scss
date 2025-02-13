@@ -1,0 +1,16 @@
+#contact {
+  background-color: rgb(0, 0, 0);
+  min-height: 100vh;
+  h1 {
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+  }
+  .links {
+    text-decoration: none;
+    margin-left: 1rem;
+    color: white;
+  }
+  .links:hover {
+    color: rgba(255, 255, 255, 0.726);
+  }
+}
