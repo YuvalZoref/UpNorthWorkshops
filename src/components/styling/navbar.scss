@@ -1,3 +1,96 @@
 #navbar {
-  background-color: black;
+  height: 3.5rem;
+  /* width: 100vw; */
+  padding: 1rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background: #000000;
+  /* border-bottom: 2px solid #889297; */
+
+  .logo {
+    object-fit: contain;
+    height: 5rem;
+    width: auto;
+    padding-left: 0.2rem;
+    padding-top: 0.1rem;
+  }
+
+  .burgerMenu {
+    /* display: none; */
+    height: 2.7rem;
+    width: 2.7rem;
+    cursor: pointer;
+    position: absolute;
+  }
+  .burgerMenu:hover {
+    height: 2.3rem;
+    width: 2.3rem;
+    opacity: 0.9;
+    transition: all 0.4s ease;
+  }
+
+  .navMenu {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 5rem;
+    right: 0rem;
+    z-index: 2;
+    padding: 0.5rem;
+    height: calc(100vh - 2rem);
+    width: 100vw;
+    background: #000000;
+    overflow: hidden;
+
+    /* .navMenu:active {
+      transition: all 2s ease;
+    } */
+
+
+    .navMenuLinksContainer {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 5rem;
+    }
+
+    .navMenuLink {
+      color: #F3D213;
+      /* font-weight: 600; */
+      font-size: 1.7rem;
+      padding: 1rem;
+      margin: 0.25rem;
+      border-radius: 0.5rem;
+      margin: 1.5rem 0;
+      text-decoration: none;
+    }
+    .navMenuLink:hover {
+      opacity: 0.8;
+      font-size: 1.9rem;
+      transition: all 0.5s ease;
+    }
+  }
+}
+@media screen and (max-width:720px) {
+
+  #navbar {
+    .logo{
+      height: 4rem;
+      padding-right: 0;
+    }
+    .burgerMenu {
+      display: flex;
+      height: 2.4rem;
+      width: 2.4rem;
+      position: relative;
+    }
+    .navbarDesktop {
+      display: none;
+    }
+  }
 }
