@@ -1,11 +1,20 @@
 #home {
   background-color: #000000;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  .homeContainer {
+    height: calc(100vh - 3.5rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .home-logo {
-    height: 24rem;
+    height: 26rem;
+  }
+}
+@media screen and (max-width:720px) {
+  #home {
+    .home-logo {
+      height: 16rem;
+    }
   }
 }

@@ -1,0 +1,76 @@
+#navbarHome {
+  padding: 0.75rem 1.25rem;
+  height: 2rem;
+  display: flex;
+  position: sticky;
+  /* top: 0; */
+  background: #000000;
+
+  .burgerMenuHome {
+    height: 2.3rem;
+    width: 2.3rem;
+    cursor: pointer;
+    padding: 0.7rem;
+  }
+  .burgerMenuHome:hover {
+    width: 2.4rem;
+    height: 2.4rem;
+    opacity: 0.6;
+    transition: all 0.4s ease;
+  }
+
+  .navMenuHome {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5rem;
+    right: 0rem;
+    margin-right: 4rem;
+    /* z-index: 2; */
+    padding: 0.5rem;
+    height: calc(100vh - 9rem);
+    width: 100vw;
+    background: #000000;
+    overflow: hidden;
+
+    .navMenuHome:active {
+      transition: all 2s ease;
+    }
+
+
+    .navMenuLinksContainerHome {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 5rem;
+      max-height: 90vh;
+    }
+
+    .navMenuLinkHome {
+      color: #ffffff;
+      font-size: 1.9rem;
+      padding: 0.8rem;
+      margin: 0.5rem;
+      border-radius: 0.5rem;
+      margin: 1rem 0;
+      text-decoration: none;
+    }
+    .navMenuLinkHome:hover {
+      opacity: 0.8;
+      color: #F3D213;
+      font-size: 1.85rem;
+      transition: all 0.5s ease;
+    }
+  }
+}
+@media screen and (max-width:720px) {
+
+  #navbarHome {
+    .burgerMenu {
+      display: flex;
+      height: 2.4rem;
+      width: 2.4rem;
+    }
+  }
+}
