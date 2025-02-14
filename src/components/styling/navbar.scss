@@ -8,28 +8,28 @@
   position: sticky;
   top: 0;
   z-index: 3;
-  background: #000000;
+  background: #ffffff;
   /* border-bottom: 2px solid #889297; */
 
   .logo {
     object-fit: contain;
-    height: 5rem;
+    height: 5.5rem;
     width: auto;
     padding-left: 0.2rem;
-    padding-top: 0.1rem;
+    padding-top: 0.2rem;
   }
 
   .burgerMenu {
     /* display: none; */
-    height: 2.7rem;
-    width: 2.7rem;
+    height: 2.3rem;
+    width: 2.3rem;
     cursor: pointer;
     position: absolute;
   }
   .burgerMenu:hover {
-    height: 2.3rem;
-    width: 2.3rem;
-    opacity: 0.9;
+    width: 2.4rem;
+    height: 2.4rem;
+    opacity: 0.6;
     transition: all 0.4s ease;
   }
 
@@ -43,7 +43,7 @@
     padding: 0.5rem;
     height: calc(100vh - 2rem);
     width: 100vw;
-    background: #000000;
+    background: #ffffff;
     overflow: hidden;
 
     /* .navMenu:active {
@@ -60,18 +60,19 @@
     }
 
     .navMenuLink {
-      color: #F3D213;
+      color: #000000;
       /* font-weight: 600; */
       font-size: 1.7rem;
       padding: 1rem;
       margin: 0.25rem;
       border-radius: 0.5rem;
-      margin: 1.5rem 0;
+      margin: 1.1rem 0;
       text-decoration: none;
     }
     .navMenuLink:hover {
       opacity: 0.8;
-      font-size: 1.9rem;
+      color: #F3D213;
+      font-size: 1.85rem;
       transition: all 0.5s ease;
     }
   }
