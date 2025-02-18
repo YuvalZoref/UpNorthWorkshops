@@ -13,8 +13,8 @@
     padding: 0.7rem;
   }
   .burgerMenuHome:hover {
-    width: 2.4rem;
-    height: 2.4rem;
+    width: 2.32rem;
+    height: 2.32rem;
     opacity: 0.6;
     transition: all 0.4s ease;
   }
@@ -43,7 +43,7 @@
       align-items: center;
       flex-direction: column;
       justify-content: center;
-      margin-bottom: 5rem;
+      margin-bottom: 3rem;
       max-height: 90vh;
     }
 
@@ -57,9 +57,9 @@
       text-decoration: none;
     }
     .navMenuLinkHome:hover {
-      opacity: 0.8;
+      opacity: 0.7;
       color: #F3D213;
-      font-size: 1.85rem;
+      font-size: 1.89rem;
       transition: all 0.5s ease;
     }
   }
@@ -71,6 +71,11 @@
       display: flex;
       height: 2.4rem;
       width: 2.4rem;
+    }
+    .navMenuHome {
+      .navMenuLinkHome {
+        font-size: 1.7rem;
+      }
     }
   }
 }

@@ -1,16 +1,66 @@
 #contact {
   background-color: rgb(255, 255, 255);
   min-height: 100vh;
-  h1 {
-    padding: 1rem;
-    color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .contactForm {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border: 4px solid #F3D213;
+    padding: 6rem;
+
+    .contactTitle {
+      margin: 2rem;
+      font-size: 2rem;
+    }
+    .emailButton {
+      margin: 2rem;
+      padding: 0.75rem;
+      border-radius: 0.2rem;
+      background: #000000;
+      border: none;
+      box-shadow: #0000003a 0px 3px 12px;
+      color: white;
+    }
+    .emailButton:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
+    .socialLinks {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 2rem;
+      height: 2.7rem;
+
+      .socialLink{
+        height: 2.9rem;
+        padding-top: 0.5rem;
+        margin: 0 0.5rem;
+      }
+      .socialLink:hover{
+      opacity: 0.6;
+      transition: all 0.3s ease;
+    }
+   }
   }
-  .links {
-    text-decoration: none;
-    margin-left: 1rem;
-    color: white;
-  }
-  .links:hover {
-    color: rgba(255, 255, 255, 0.726);
-  }
+}
+
+@media screen and (max-width:640px) {
+  #contact {
+   .contactForm {
+    padding: 3rem;
+     .contactTitle {
+       font-size: 1.6rem;
+     }
+     .socialLinks {
+       .socialLink {
+         height: 1.8rem;
+       }
+     }
+   }
+}
 }

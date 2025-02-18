@@ -1,16 +1,29 @@
 #about {
   background-color: rgb(255, 255, 255);
   min-height: 100vh;
-  h1 {
-    padding: 1rem;
-    color: rgb(0, 0, 0);
+  .aboutUs {
+    .aboutUsTitle {
+      font-size: 2.2rem;
+      padding: 2.2rem;
+      color: rgb(0, 0, 0);
+    }
+    .aboutUsDescription {
+      padding: 2rem;
+      padding-top: 0;
+      font-size: 1.2rem;
+    }
   }
-  .links {
-    text-decoration: none;
-    margin-left: 1rem;
-    color: white;
+}
+
+@media screen and (max-width:640px) {
+  #about {
+  .aboutUs {
+    .aboutUsTitle {
+      font-size: 1.8rem;
+    }
+    .aboutUsDescription {
+      font-size: 0.9rem;
+    }
   }
-  .links:hover {
-    color: rgba(255, 255, 255, 0.726);
-  }
+}
 }
