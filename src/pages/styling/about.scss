@@ -9,11 +9,11 @@
       align-items: center;
       .aboutUsTitle {
         padding: 2.2rem;
-        color: rgb(0, 0, 0);
+        padding-bottom: 1.6rem;
+        border-bottom: 2px solid #F3D213;
       }
       .aboutUsDescription {
         padding: 2rem;
-        padding-top: 0;
         margin: 0 1rem;
         font-size: 1.2rem;
         text-align: center;
@@ -24,13 +24,15 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background-color: rgb(217, 217, 217);
+      background-color: rgb(236, 236, 236);
       margin-top: 4rem;
       margin-bottom: 4rem;
+      box-shadow: #adadad 0px 0px 2px;
       .workshopsTitle {
-        padding: 2.2rem;
-        margin-bottom: 2rem;
-
+        padding: 2rem;
+        padding-bottom: 1.6rem;
+        margin-bottom: 1.6rem;
+        border-bottom: 2px solid #F3D213;
       }
       .workshopsSection {
         display: flex;
@@ -62,6 +64,7 @@
       margin-bottom: 4rem;
       .whatWeTitle {
         padding: 1.6rem;
+        border-bottom: 2px solid #F3D213;
       }
       .whatWeDescription {
         padding: 2rem;
@@ -77,12 +80,41 @@
 @media screen and (max-width:640px) {
   #about {
   .aboutUs {
-    .aboutUsDescription {
-      font-size: 0.9rem;
+    .aboutContainerTop {
+      .aboutUsTitle {
+        font-size: 1.2rem;
+      }
+      .aboutUsDescription {
+        font-size: 0.9rem;
+      }
     }
 
+
+    .aboutContainerMiddle {
+      .workshopsTitle {
+        font-size: 1.2rem;
+      }
     .workshopsSection {
       flex-direction: column;
+      .workshopsSectionSingle {
+        .workshopsSectionTitle {
+          font-size: 1rem;
+        }
+        .workshopsSectionDescr {
+          font-size: 0.8rem;
+        }
+      }
+    }
+   }
+
+
+    .aboutContainerBottom {
+      .whatWeTitle {
+        font-size: 1.2rem;
+      }
+      .whatWeDescription {
+        font-size: 0.9rem;
+      }
     }
   }
 }
