@@ -4,21 +4,26 @@
   padding-bottom: 0.25rem;
   .row {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 1rem;
 
     .footerCol {
+      display: flex;
       padding-top: 0.5rem;
       margin-bottom: 0.2rem;
+      .footerDate {
+        margin-right: 0.3rem;
+        color: #F3D213;
+      }
     }
   }
-
   .socialLinksFooter {
       padding-top: 0.5rem;
+      margin-left: 0.8rem;
     .socialLinkFooter {
-      height: 2rem;
+      height: 1.8rem;
       margin: 0 0.3rem;
     }
     .socialLinkFooter:hover {
@@ -31,19 +36,11 @@
 @media screen and (max-width:560px) {
   #footer {
     font-size: 0.75rem;
-    padding-bottom: 0;
-    .row {
-      flex-direction: row;
-      justify-content: space-evenly;
-      .footerCol {
-        padding-left: 1rem;
-      }
-    }
     .socialLinksFooter {
-      padding-right: 1rem;
+      margin-left: 0.3rem;
       .socialLinkFooter {
-        height: 1.3rem;
-        margin: 0 0.2rem;
+        height: 1.15rem;
+        margin: 0 0.15rem;
       }
     }
   }
