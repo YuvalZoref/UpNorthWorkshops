@@ -1,5 +1,5 @@
 #contact {
-  background: linear-gradient(90deg, #f3d11382 46%, #ffff 54%);
+  background: linear-gradient(90deg, #f4d24eb3 46%, #ffff 54%);
   min-height: 100vh;
     display: flex;
     justify-content: space-around;
@@ -54,7 +54,7 @@
 @media screen and (max-width:640px) {
   #contact {
       flex-direction: column;
-      background: linear-gradient(180deg, #f3d11382 45%, #ffff 55%);
+      background: linear-gradient(180deg, #f4d24eb3 46%, #ffff 54%);
       .contactPageLeft {
         .contactTitle {
           font-size: 1.6rem;
@@ -62,6 +62,7 @@
         .socialLinks {
           .socialLink {
             height: 1.8rem;
+            padding-bottom: 2rem;
           }
         }
       }
