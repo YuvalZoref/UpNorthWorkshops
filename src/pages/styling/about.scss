@@ -8,15 +8,24 @@
       justify-content: center;
       align-items: center;
       .aboutUsTitle {
-        padding: 2.2rem;
-        padding-bottom: 1.6rem;
-        border-bottom: 2px solid #F3D213;
+        padding: 3rem;
+        padding-bottom: 1.4rem;
+        font-size: 2rem;
+        border-bottom: 3px solid #F3D213;
+        color: rgb(69, 69, 69);
+      }
+      .aboutUsSubtitle {
+        padding: 2rem;
+        font-size: 2.1rem;
+        color: #b49d1b;
+        text-align: center;
       }
       .aboutUsDescription {
         padding: 2rem;
-        margin: 0 1rem;
-        font-size: 1.2rem;
+        margin: 0 2rem;
+        font-size: 1.25rem;
         text-align: center;
+        color: rgb(69, 69, 69);
       }
     }
     .aboutContainerMiddle {
@@ -24,15 +33,17 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background-color: rgb(236, 236, 236);
+      background-color: rgb(240, 240, 240);
       margin-top: 4rem;
       margin-bottom: 4rem;
-      box-shadow: #adadad 0px 0px 2px;
+      box-shadow: #dfdfdf 0px 0px 2px;
       .workshopsTitle {
         padding: 2rem;
-        padding-bottom: 1.6rem;
+        font-size: 2rem;
+        padding-bottom: 1.4rem;
         margin-bottom: 1.6rem;
-        border-bottom: 2px solid #F3D213;
+        color: rgb(69, 69, 69);
+        border-bottom: 3px solid #F3D213;
       }
       .workshopsSection {
         display: flex;
@@ -44,13 +55,18 @@
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          max-width: 33%;
           .workshopsSectionTitle {
             padding: 1rem;
+            color: #b49d1b;
+            font-size: 1.4rem;
           }
           .workshopsSectionDescr {
-            padding: 2rem;
+            padding: 1rem;
+            font-size: 1.1rem;
             margin: 0 2rem;
             text-align: center;
+            color: rgb(69, 69, 69);
           }
         }
       }
@@ -62,14 +78,17 @@
       align-items: center;
       margin-top: 4rem;
       margin-bottom: 4rem;
-      .whatWeTitle {
-        padding: 1.6rem;
-        border-bottom: 2px solid #F3D213;
+      .whyUsTitle {
+        padding: 1.4rem;
+        border-bottom: 3px solid #F3D213;
+        color: rgb(69, 69, 69);
+        font-size: 2rem;
       }
-      .whatWeDescription {
+      .whyUsDescription {
         padding: 2rem;
-        font-size: 1.2rem;
-        margin: 0 1rem;
+        font-size: 1.25rem;
+        margin: 0 2rem;
+        color: rgb(69, 69, 69);
         text-align: center;
       }
     }
@@ -77,15 +96,20 @@
   }
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:720px) {
   #about {
   .aboutUs {
     .aboutContainerTop {
       .aboutUsTitle {
         font-size: 1.2rem;
       }
+      .aboutUsSubtitle {
+        font-size: 1rem;
+        padding-bottom: 0.5rem;
+      }
       .aboutUsDescription {
         font-size: 0.9rem;
+        padding-bottom: 0.5rem;
       }
     }
 
@@ -96,12 +120,15 @@
       }
     .workshopsSection {
       flex-direction: column;
+      margin: 0 0.5rem;
       .workshopsSectionSingle {
+        max-width: 100%;
         .workshopsSectionTitle {
           font-size: 1rem;
         }
         .workshopsSectionDescr {
           font-size: 0.8rem;
+          padding-top: 0.5rem;
         }
       }
     }
@@ -109,11 +136,13 @@
 
 
     .aboutContainerBottom {
-      .whatWeTitle {
+      .whyUsTitle {
         font-size: 1.2rem;
+        padding-top: 0.5rem;
       }
-      .whatWeDescription {
+      .whyUsDescription {
         font-size: 0.9rem;
+        padding-bottom: 0.5rem;
       }
     }
   }
