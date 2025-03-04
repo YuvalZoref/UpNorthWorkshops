@@ -1,6 +1,10 @@
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import '../pages/styling/about.scss'
+import aboutUsPic1 from '../assets/about/aboutTopPic1.jpg'
+import aboutUsPic2 from '../assets/about/aboutTopPic2.jpg'
+import aboutUsPic3 from '../assets/about/aboutTopPic3.jpg'
+import whyUsPic from '../assets/about/aboutBottomPic.jpg'
 // import { Link } from 'react-router-dom';
 
 export default function About() {
@@ -12,6 +16,7 @@ export default function About() {
             <div className='aboutContainerTop'>
               <h1 className='aboutUsTitle'>WHAT WE OFFER</h1>
               <h2 className='aboutUsSubtitle'>Specialised Workshops with Industry Professionals</h2>
+              <div className='aboutUsBox'>
                 <p className='aboutUsDescription'>
                 Bringing your favourite shows straight to you!
                 These workshops offer the unique opportunity to learn material
@@ -22,6 +27,12 @@ export default function About() {
                 each participant gets the most out of the experience
                 and receives personalised attention.
                 </p>
+                <div className='aboutUsPicBox'>
+                  <img src={aboutUsPic1} alt="topPhoto" className='aboutUsPic' />
+                  <img src={aboutUsPic2} alt="topPhoto" className='aboutUsPic' />
+                  <img src={aboutUsPic3} alt="topPhoto" className='aboutUsPic' />
+                </div>
+              </div>
             </div>
             <div className='aboutContainerMiddle'>
               <h1 className='workshopsTitle'>OUR WORKSHOPS</h1>
@@ -61,15 +72,18 @@ export default function About() {
             </div>
             <div className='aboutContainerBottom'>
             <h1 className='whyUsTitle'>WHY CHOOSE US?</h1>
-              <p className='whyUsDescription'>
-              As industry professionals on our own unique journeys,
-              we are passionate about inspiring and guiding aspiring performers.
-              Our goal is to provide mentorship, representation,
-              and encouragement, showing that a successful career in the arts
-              is possible—no matter your background. By sharing our experiences,
-              we hope to be role models for those who see themselves
-              in us and to help them on their own journeys.
-              </p>
+              <div className='whyUsBox'>
+                <img src={whyUsPic} alt="bottomPhoto" className='whyUsPic' />
+                <p className='whyUsDescription'>
+                As industry professionals on our own unique journeys,
+                we are passionate about inspiring and guiding aspiring performers.
+                Our goal is to provide mentorship, representation,
+                and encouragement, showing that a successful career in the arts
+                is possible—no matter your background. By sharing our experiences,
+                we hope to be role models for those who see themselves
+                in us and to help them on their own journeys.
+                </p>
+              </div>
             </div>
           </section>
         </div>
