@@ -67,14 +67,19 @@
 @media screen and (max-width:720px) {
 
   #navbarHome {
-    .burgerMenu {
+    .burgerMenuHome {
       display: flex;
-      height: 2.4rem;
-      width: 2.4rem;
+      height: 2.2rem;
+      width: 2.2rem;
+      padding-left: 0;
     }
     .navMenuHome {
+      margin-right: 3rem;
       .navMenuLinkHome {
         font-size: 1.7rem;
+      }
+      .navMenuLinksContainerHome {
+        margin-bottom: 1rem;
       }
     }
   }
