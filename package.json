@@ -1,6 +1,7 @@
 {
   "name": "up-north-workshops",
   "version": "0.1.0",
+  "homepage": "https://upnorthworkshops.co.uk",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.3.3",
