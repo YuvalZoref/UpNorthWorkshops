@@ -1,7 +1,8 @@
 #navbar {
   height: 3.5rem;
   /* width: 100vw; */
-  padding: 1rem 1.25rem;
+  padding: 1rem 1rem;
+  /* padding-left: 0.75rem; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -61,10 +62,8 @@
 
     .navMenuLink {
       color: #ffffff;
-      /* font-weight: 600; */
       font-size: 1.7rem;
       padding: 1rem;
-      /* border-radius: 0.5rem; */
       margin: 1.1rem 0;
       margin-left: 1.7rem;
       text-decoration: none;
@@ -91,11 +90,20 @@
       position: relative;
     }
     .burgerMenu:hover {
-      height: 2rem;
-      width: 2rem;
+      height: 1.9rem;
+      width: 1.9rem;
     }
     .navbarDesktop {
       display: none;
+    }
+    .navMenu {
+      .navMenuLink {
+        font-size: 1.3rem;
+      }
+      .navMenuLink:hover {
+        font-size: 1.32rem;
+      }
+
     }
   }
 }

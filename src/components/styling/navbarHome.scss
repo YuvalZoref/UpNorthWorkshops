@@ -67,11 +67,16 @@
 @media screen and (max-width:720px) {
 
   #navbarHome {
+    padding-left: 0.75rem;
     .burgerMenuHome {
       display: flex;
-      height: 2.2rem;
-      width: 2.2rem;
+      height: 1.9rem;
+      width: 1.9rem;
       padding-left: 0;
+    }
+    .burgerMenuHome:hover {
+      width: 1.9rem;
+      height: 1.9rem;
     }
     .navMenuHome {
       margin-right: 3rem;

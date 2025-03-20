@@ -142,13 +142,13 @@
       }
       .aboutUsSubtitle {
         font-size: 1rem;
-        padding-bottom: 0.5rem;
+        padding-bottom: 0.4rem;
       }
       .aboutUsBox {
         .aboutUsDescription {
           font-size: 0.9rem;
-          padding: 0 1rem;
-          margin: 1.6rem;
+          padding: 0;
+          margin: 1.6rem 1rem;
         }
         .aboutUsPicBox {
           flex-direction: column;
@@ -194,6 +194,7 @@
       .whyUsBox {
         flex-direction: column;
         padding-top: 1.8rem;
+        padding-bottom: 1.2rem;
         .whyUsPic {
           height: 12.5rem;
           margin-bottom: 0.5rem;
@@ -202,9 +203,10 @@
         }
         .whyUsDescription {
           font-size: 0.9rem;
-          padding: 1rem 1.5rem;
+          padding-top: 1.5rem;
+          padding-bottom: 0;
           text-align: center;
-          width: auto;
+          width: 90%;
           height: auto;
         }
       }
