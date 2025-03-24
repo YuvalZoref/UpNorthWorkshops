@@ -4,7 +4,7 @@ import '../pages/styling/contact.scss'
 import facebookIcon from '../assets/contact/facebook.png'
 import SpotlightIcon from '../assets/contact/spotlight.png'
 import instagramIcon from '../assets/contact/instagram.png'
-import contactPic from '../assets/contact/contactPic.jpg'
+import contactPic from '../assets/contact/contactPic.jpeg'
 // import { Link } from 'react-router-dom';
 
 export default function Contact() {

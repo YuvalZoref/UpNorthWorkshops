@@ -1,10 +1,10 @@
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import '../pages/styling/about.scss'
-import aboutUsPic1 from '../assets/about/aboutTopPic1.jpg'
-import aboutUsPic2 from '../assets/about/aboutTopPic2.jpg'
-import aboutUsPic3 from '../assets/about/aboutTopPic3.jpg'
-import whyUsPic from '../assets/about/aboutBottomPic.jpg'
+import aboutUsPic1 from '../assets/about/aboutTopPic1.jpeg'
+import aboutUsPic2 from '../assets/about/aboutTopPic2.jpeg'
+import aboutUsPic3 from '../assets/about/aboutTopPic3.jpeg'
+import whyUsPic from '../assets/about/aboutBottomPic.jpeg'
 // import { Link } from 'react-router-dom';
 
 export default function About() {

@@ -1,7 +1,7 @@
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import '../pages/styling/team.scss'
-import Nathan from '../assets/team/nathan.jpg'
+import Nathan from '../assets/team/nathan.jpeg'
 // import { Link } from 'react-router-dom';
 
 export default function Team() {
