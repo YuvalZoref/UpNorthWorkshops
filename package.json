@@ -1,7 +1,7 @@
 {
   "name": "up-north-workshops",
   "version": "0.1.0",
-  "homepage": "https://upnorthworkshops.co.uk",
+  "homepage": "https://upnorthworkshops.co.uk/",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.3.3",
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -b -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
