@@ -1,10 +1,9 @@
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import '../pages/styling/about.scss'
-import aboutUsPic1 from '../assets/about/aboutTopPic1.jpeg'
-import aboutUsPic2 from '../assets/about/aboutTopPic2.jpeg'
-import aboutUsPic3 from '../assets/about/aboutTopPic3.jpeg'
-import whyUsPic from '../assets/about/aboutBottomPic.jpeg'
+import Nathan from '../assets/about/nathan.jpeg'
+import whyUsPic from '../assets/about/aboutPic.jpg'
+import SpotlightIcon from '../assets/about/spotlight.png'
 // import { Link } from 'react-router-dom';
 
 export default function About() {
@@ -12,80 +11,50 @@ export default function About() {
     <div className='container'>
       <Navbar />
         <div id='about'>
-          <section className='aboutUs'>
-            <div className='aboutContainerTop'>
-              <h1 className='aboutUsTitle'>WHAT WE OFFER</h1>
-              <h2 className='aboutUsSubtitle'>Specialised Workshops with Industry Professionals</h2>
-              <div className='aboutUsBox'>
-                <p className='aboutUsDescription'>
-                Bringing your favourite shows straight to you!
-                These workshops offer the unique opportunity to learn material
-                directly from the shows, guided by someone who is currently performing in them.
-                You'll also have the chance to ask questions about the show and the wider industry,
-                with the goal of leaving the workshop not only feeling inspired but having had a truly great time.
-                Please note, there will be limited places available to ensure
-                each participant gets the most out of the experience
-                and receives personalised attention.
-                </p>
-                <div className='aboutUsPicBox'>
-                  <img src={aboutUsPic1} alt="topPhoto" className='aboutUsPic' />
-                  <img src={aboutUsPic2} alt="topPhoto" className='aboutUsPic' />
-                  <img src={aboutUsPic3} alt="topPhoto" className='aboutUsPic' />
-                </div>
-              </div>
-            </div>
-            <div className='aboutContainerMiddle'>
-              <h1 className='workshopsTitle'>OUR WORKSHOPS</h1>
-              <div className='workshopsSection'>
-                <div className='workshopsSectionSingle'>
-                  <h3 className='workshopsSectionTitle'>SCHOOLS</h3>
-                    <p className='workshopsSectionDescr'>
-                    Our dynamic and engaging workshops encourage students
-                    to tap into their creativity while offering a unique outlet
-                    for self-expression. Through immersive dance and acting sessions,
-                    participants are challenged to think outside the box, build confidence,
-                    and explore new ways to channel their emotions in a supportive and inspiring environment.
-                    </p>
-                </div>
-                <div className='workshopsSectionSingle'>
-                  <h3 className='workshopsSectionTitle'>INSTITUTIONS</h3>
-                    <p className='workshopsSectionDescr'>
-                    Designed to mirror the intensity and skill required in the industry,
-                    these workshops will push students beyond their comfort zones, challenging them to grow
-                    and evolve as performers. Through rigorous training and hands-on
-                    experience, participants will refine their craft, build resilience, and develop the
-                    confidence needed to thrive in a competitive industry. Additionally,
-                    these workshops offer valuable, up-to-date insights into the industry,
-                    equipping students with the knowledge and tools necessary for success.
-                    </p>
-                </div>
-                <div className='workshopsSectionSingle'>
-                  <h3 className='workshopsSectionTitle'>121’s</h3>
-                    <p className='workshopsSectionDescr'>
-                    Whether you’re auditioning for a project, college or drama school,
-                    or simply seeking private coaching, we’re here to help you every step of the way.
-                    We will work to understand your needs and match you with the
-                    coach we think fits your needs the most. 
-                    </p>
-                </div>
-              </div>
-            </div>
-            <div className='aboutContainerBottom'>
-            <h1 className='whyUsTitle'>WHY CHOOSE US?</h1>
-              <div className='whyUsBox'>
-                <img src={whyUsPic} alt="bottomPhoto" className='whyUsPic' />
-                <p className='whyUsDescription'>
-                As industry professionals on our own unique journeys,
-                we are passionate about inspiring and guiding aspiring performers.
-                Our goal is to provide mentorship, representation,
-                and encouragement, showing that a successful career in the arts
-                is possible—no matter your background. By sharing our experiences,
-                we hope to be role models for those who see themselves
-                in us and to help them on their own journeys.
-                </p>
-              </div>
-            </div>
-          </section>
+        <section className='aboutSection'>
+          <div className='aboutItem'>
+          <div className='aboutItemLeft'>
+            <img src={Nathan} alt="nathanPic" className='aboutPic' />
+          </div>
+          <div className='aboutItemRight'>
+            <h2 className='aboutTitle'>About me / Up north workshops</h2>
+            <p className='aboutDescription'>
+            I’m Nathan Graham, and I’ve had the privilege of
+            working in the performing arts industry for many years.
+            I began my career in theatre, performing in musicals across the West End,
+            UK tours, and various international productions.
+            As my journey evolved, I shifted my focus towards acting,
+            which has opened doors to exciting opportunities in television.
+            Along the way, I've had the chance to collaborate with some incredible artists,
+            constantly learning and growing both in my craft and within the industry itself.
+            While I’m still actively working in the industry,
+            my passion for helping others has led me to launch Up North Workshops.
+            Through these workshops, I aim to share the insights and experiences
+            I’ve gathered over the years, while leaning on the talented network of friends
+            and industry professionals I’ve built to come and give specialised workshops.
+            My goal is to inspire the next wave of performers in the North.
+            </p>
+              <a href="https://app.spotlight.com/9097-9054-2172" rel="noreferrer" target="blank"><img src={SpotlightIcon} alt="spotlight" className="socialLink" /></a>
+          </div>
+          </div>
+          <div className='aboutItem bottom'>
+          <div className='aboutItemLeft'>
+          <img src={whyUsPic} alt="bottomPhoto" className='aboutPicBottom' />
+          </div>
+          <div className='aboutItemRight'>
+            <h2 className='aboutTitle'>Why choose us?</h2>
+            <p className='aboutDescription'>
+              As industry professionals on our own unique journeys,
+              we are passionate about inspiring and guiding aspiring performers.
+              Our goal is to provide mentorship, representation,
+              and encouragement, showing that a successful career in the arts
+              is possible—no matter your background. By sharing our experiences,
+              we hope to be role models for those who see themselves
+              in us and to help them on their own journeys.
+            </p>
+          </div>
+          </div>
+        </section>
         </div>
       <Footer />
     </div>
