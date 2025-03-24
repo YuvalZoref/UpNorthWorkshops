@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Team from './pages/Team'
+import Errorpage from './pages/ErrorPage'
 import ScrollToTop from "../src/components/scrollToTop";
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Team" element={<Team />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="*" element={<Errorpage />} />
         </Routes>
       </Router>
     </div>
