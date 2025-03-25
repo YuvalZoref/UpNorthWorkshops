@@ -12,12 +12,17 @@ export default function About() {
       <Navbar />
         <div id='about'>
         <section className='aboutSection'>
+          <div className='aboutContainerTop'>
+            <h1 className='aboutTitleTop'>About us</h1>
+            <h2 className='aboutSubtitleTop'>Up north workshops</h2>
+          </div>
+          <div className='aboutItemTop'>
           <div className='aboutItem'>
           <div className='aboutItemLeft'>
             <img src={Nathan} alt="nathanPic" className='aboutPic' />
           </div>
           <div className='aboutItemRight'>
-            <h2 className='aboutTitle'>About me / Up north workshops</h2>
+            <h2 className='aboutTitle'>About me</h2>
             <p className='aboutDescription'>
             I’m Nathan Graham, and I’ve had the privilege of
             working in the performing arts industry for many years.
@@ -37,23 +42,26 @@ export default function About() {
               <a href="https://app.spotlight.com/9097-9054-2172" rel="noreferrer" target="blank"><img src={SpotlightIcon} alt="spotlight" className="socialLink" /></a>
           </div>
           </div>
-          <div className='aboutItem bottom'>
-          <div className='aboutItemLeft'>
-          <img src={whyUsPic} alt="bottomPhoto" className='aboutPicBottom' />
+
           </div>
-          <div className='aboutItemRight'>
-            <h2 className='aboutTitle'>Why choose us?</h2>
-            <p className='aboutDescription'>
-              As industry professionals on our own unique journeys,
-              we are passionate about inspiring and guiding aspiring performers.
-              Our goal is to provide mentorship, representation,
-              and encouragement, showing that a successful career in the arts
-              is possible—no matter your background. By sharing our experiences,
-              we hope to be role models for those who see themselves
-              in us and to help them on their own journeys.
-            </p>
-          </div>
-          </div>
+            <div className='aboutItem'>
+            <div className='aboutItemLeft'>
+              <img src={whyUsPic} alt="bottomPhoto" className='aboutPicBottom' />
+            </div>
+            <div className='aboutItemRight'>
+              <h2 className='aboutTitle'>Why choose us?</h2>
+              <p className='aboutDescription'>
+                As industry professionals on our own unique journeys,
+                we are passionate about inspiring and guiding aspiring performers.
+                Our goal is to provide mentorship, representation,
+                and encouragement, showing that a successful career in the arts
+                is possible—no matter your background. By sharing our experiences,
+                we hope to be role models for those who see themselves
+                in us and to help them on their own journeys.
+              </p>
+            </div>
+            </div>
+
         </section>
         </div>
       <Footer />

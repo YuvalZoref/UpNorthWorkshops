@@ -8,7 +8,7 @@ export default function Home() {
     <div id='home'>
     <Navbar />
       <div className='homeContainer'>
-        <Link className='links' to='../WhatWeOffer'>
+        <Link className='links' to='../About'>
           <img src={logo} className="home-logo" alt="logo" />
         </Link>
       </div>
