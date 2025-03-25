@@ -24,7 +24,8 @@ export default function WhatWeOffer() {
                 with the goal of leaving the workshop not only feeling inspired but having had a truly great time.
                 Please note, there will be limited places available to ensure
                 each participant gets the most out of the experience
-                and receives personalised attention.
+                and receives personalised attention. All of our workshops will be advertised
+                on our Instagram and Facebook page.
                 </p>
                 <div className='whatWeOfferPicBox'>
                   <img src={whatWePic1} alt="topPhoto" className='whatWeOfferPic' />
@@ -63,10 +64,22 @@ export default function WhatWeOffer() {
                     <p className='workshopsSectionDescr'>
                     Whether you’re auditioning for a project, college or drama school,
                     or simply seeking private coaching, we’re here to help you every step of the way.
-                    We will work to understand your needs and match you with the
-                    coach we think fits your needs the most. 
+                    We'll take the time to understand your goals and tailor our approach to help you succeed. 
                     </p>
                 </div>
+              </div>
+            </div>
+            <div className='whatWeOfferContainerBottom'>
+              <div className='contactInfoLeft'>
+                <h4 className='contactInfo'>
+                For all enquiries please contact
+                </h4>
+              </div>
+              <div className='contactInfoRight'>
+                <h4 className='contactInfoLink' onClick={() =>
+                {window.location.href ='mailto:info@upnorthworkshops.co.uk';}}>
+                info@upnorthworkshops.co.uk
+                </h4>
               </div>
             </div>
           </section>

@@ -10,7 +10,8 @@
       .contactTitle {
         margin: 1rem;
         font-size: 4rem;
-        color: rgb(69, 69, 69);
+        color: rgba(83, 83, 83, 0.944);
+        text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.125);
       }
       .socialLinks {
         display: flex;
@@ -37,6 +38,7 @@
         border: none;
         box-shadow: #968316b1 2px 3px 8px;
         color: rgba(0, 0, 0, 0.753);
+        text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.236);
       }
       .emailButton:hover {
         cursor: pointer;
@@ -51,6 +53,16 @@
         border-radius: 20px;
       }
     }
+}
+
+@media screen and (max-width:1170px) {
+  #contact {
+    .contactPageRight {
+      .rightPicture {
+        height: 16rem;
+      }
+    }
+  }
 }
 
 @media screen and (max-width:720px) {

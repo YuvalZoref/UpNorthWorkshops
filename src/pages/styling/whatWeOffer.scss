@@ -9,16 +9,18 @@
       align-items: center;
       .whatWeOfferTitle {
         padding: 3rem;
-        padding-bottom: 1rem;
+        padding-bottom: 0.7rem;
         font-size: 2rem;
-        border-bottom: 3px solid #F3D213;
-        color: rgb(69, 69, 69);
+        border-bottom: 2px solid #F3D213;
+        color: rgba(83, 83, 83, 0.944);
+        text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.064);
       }
       .whatWeOfferSubtitle {
         padding: 1.9rem;
         padding-bottom: 0;
         font-size: 2.1rem;
         color: #b49d1b;
+        text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.081);
         text-align: center;
       }
       .whatWeOfferBox {
@@ -29,8 +31,9 @@
         padding: 0 3rem;
         padding-bottom: 0;
         .whatWeOfferDescription {
-          padding: 1rem;
+          padding: 1rem 3rem;
           margin: 2rem;
+          margin-top: 1rem;
           font-size: 1.3rem;
           text-align: center;
           color: rgb(69, 69, 69);
@@ -61,10 +64,11 @@
       .workshopsTitle {
         padding: 2rem;
         font-size: 2rem;
-        padding-bottom: 1rem;
+        padding-bottom: 0.8rem;
         margin-bottom: 1.6rem;
-        color: rgb(69, 69, 69);
-        border-bottom: 3px solid #F3D213;
+        color: rgba(83, 83, 83, 0.944);
+        text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.081);
+        border-bottom: 2px solid #F3D213;
       }
       .workshopsSection {
         display: flex;
@@ -80,6 +84,7 @@
           .workshopsSectionTitle {
             padding: 1rem;
             color: #b49d1b;
+            text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.081);
             font-size: 1.4rem;
           }
           .workshopsSectionDescr {
@@ -92,11 +97,65 @@
         }
       }
     }
+    .whatWeOfferContainerBottom {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 3rem;
+      .contactInfoLeft {
+        .contactInfo {
+          padding-right: 0.2rem;
+          font-size: 1.25rem;
+          font-weight: 400;
+        }
+      }
+      .contactInfoRight {
+        padding-left: 0.2rem;
+        .contactInfoLink {
+          color: #b49d1b;
+          text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.081);
+          font-style: italic;
+          font-size: 1.25rem;
+        }
+        .contactInfoLink:hover {
+          cursor: pointer;
+          opacity: 0.85;
+        }
+      }
+    }
 
   }
 }
 
-@media screen and (max-width:840px) {
+@media screen and (max-width:1190px) {
+  #whatWeOffer {
+    .whatWeOffer {
+      .whatWeOfferContainerTop {
+        .whatWeOfferSubtitle {
+          font-size: 1.8rem;
+        }
+        .whatWeOfferBox {
+          .whatWeOfferPicBox {
+            .whatWeOfferPic {
+              height: 10.25rem;
+            }
+          }
+        }
+      }
+      .whatWeOfferContainerMiddle {
+        .workshopsSection {
+          .workshopsSectionSingle {
+            .workshopsSectionDescr {
+              font-size: 0.9rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:720px) {
   #whatWeOffer {
   .whatWeOffer {
     .whatWeOfferContainerTop {
@@ -105,13 +164,13 @@
       }
       .whatWeOfferSubtitle {
         font-size: 1rem;
-        padding-bottom: 0.4rem;
+        padding-bottom: 0.2rem;
       }
       .whatWeOfferBox {
         .whatWeOfferDescription {
           font-size: 0.9rem;
           padding: 0;
-          margin: 1.6rem 1rem;
+          margin: 1.2rem;
         }
         .whatWeOfferPicBox {
           flex-direction: column;
@@ -120,12 +179,9 @@
             margin: 0.4rem 0.2rem;
             padding: 0.15rem;
           }
-
         }
       }
     }
-
-
     .whatWeOfferContainerMiddle {
       .workshopsTitle {
         font-size: 1.2rem;
@@ -142,6 +198,18 @@
           font-size: 0.8rem;
           padding-top: 0.5rem;
         }
+      }
+    }
+   }
+   .whatWeOfferContainerBottom {
+    .contactInfoLeft {
+      .contactInfo {
+        font-size: 0.85rem;
+      }
+    }
+    .contactInfoRight {
+      .contactInfoLink {
+        font-size: 0.85rem;
       }
     }
    }
