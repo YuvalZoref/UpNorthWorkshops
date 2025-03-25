@@ -157,6 +157,7 @@
 
 @media screen and (max-width:720px) {
   #whatWeOffer {
+    overflow: hidden;
   .whatWeOffer {
     .whatWeOfferContainerTop {
       .whatWeOfferTitle {
@@ -202,6 +203,7 @@
     }
    }
    .whatWeOfferContainerBottom {
+    flex-direction: column;
     .contactInfoLeft {
       .contactInfo {
         font-size: 0.65rem;
@@ -209,6 +211,7 @@
     }
     .contactInfoRight {
       .contactInfoLink {
+        padding-top: 0.2rem;
         font-size: 0.65rem;
       }
     }
