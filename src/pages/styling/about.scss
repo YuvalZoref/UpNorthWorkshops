@@ -80,14 +80,16 @@
   #about {
     .aboutSection {
       .aboutContainerTop {
-        padding-top: 0.6rem;
+        padding-top: 0;
         margin-bottom: 0;
         .aboutTitleTop {
-          font-size: 1.2rem;
+          font-size: 1rem;
+          padding-bottom: 0.8rem;
         }
         .aboutSubtitleTop {
-          font-size: 1rem;
-          padding-bottom: 2.8rem;
+          font-size: 0.85rem;
+          padding-bottom: 1.4rem;
+          padding-top: 0.8rem;
         }
       }
       .aboutItem {
