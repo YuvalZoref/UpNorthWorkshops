@@ -1,6 +1,8 @@
 {
   "name": "up-north-workshops",
   "version": "0.1.0",
+  "title": "Up North Workshops",
+  "description": "up noth yeah",
   "homepage": "https://upnorthworkshops.co.uk/",
   "private": true,
   "dependencies": {
