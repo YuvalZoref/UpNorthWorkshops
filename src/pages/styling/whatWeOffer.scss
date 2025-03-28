@@ -162,6 +162,7 @@
     .whatWeOfferContainerTop {
       .whatWeOfferTitle {
         font-size: 1.2rem;
+        padding-bottom: 1rem
       }
       .whatWeOfferSubtitle {
         font-size: 1rem;
@@ -176,7 +177,7 @@
         .whatWeOfferPicBox {
           flex-direction: column;
           .whatWeOfferPic {
-            height: 12.5rem;
+            height: 12rem;
             margin: 0.4rem 0.2rem;
             padding: 0.15rem;
           }

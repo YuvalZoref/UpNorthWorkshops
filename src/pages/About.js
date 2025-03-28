@@ -13,8 +13,8 @@ export default function About() {
         <div id='about'>
         <section className='aboutSection'>
           <div className='aboutContainerTop'>
-            <h1 className='aboutTitleTop'>About us</h1>
-            <h2 className='aboutSubtitleTop'>Up north workshops</h2>
+            <h1 className='aboutTitleTop'>ABOUT US</h1>
+            <h2 className='aboutSubtitleTop'>Up North Workshops</h2>
           </div>
           <div className='aboutItemTop'>
           <div className='aboutItem'>
